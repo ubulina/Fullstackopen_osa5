@@ -5,7 +5,7 @@ const Errorinfo = ({ errorMessage }) => {
     if (errorMessage === null) {
         return null
       }
-    
+
       return (
         <div className='error'>
           {errorMessage}
